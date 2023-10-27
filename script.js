@@ -1,4 +1,4 @@
-/*var first=0;
+var first=0;
 function autoslide(){
   setTimeout(autoslide,4000);
   var pics;
@@ -14,7 +14,7 @@ for(pics=0;pics<img.length;pics++)
     img[first -1].style.display="block";
 }
 autoslide();
-*/
+
 
 $('#menu-btn').click(function(){
   $('.nav ul').addClass('active')
