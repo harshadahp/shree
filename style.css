@@ -4,9 +4,7 @@
 }
 #navigation{
   background-color: rgb(9, 96, 102);
-    //background: linear-gradient(rgb(5, 31, 41),rgb(58, 13, 13));
    background-image: url("MSCIT.jpg");
-    //height: 60px;
     display:flex;
     justify-content: space-around;
     flex-wrap:wrap;
@@ -16,10 +14,9 @@
 } 
 
 .name{
-   //background-color: rgb(15, 102, 124);
-    display:flex;
-     //flex-direction: row;
- //   justify-content:space-around;
+        display:flex;
+     flex-direction: row;
+     justify-content:space-around;
 }
 .name h1{
     color: rgb(241, 230, 230);
@@ -453,10 +450,13 @@ footer .subscribe a.green:hover{
    #syllabus .name img{
     height: 500px;
    }
-@media (max-width: 769px) {
+@media (max-width: 650px) {
    .nav{
         padding: 15px 20px;
         color: chartreuse;
+    }
+    .name{
+        width: 100px;
     }
     .nav img{
         width: 130px;
