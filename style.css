@@ -13,10 +13,10 @@
     z-index: 9999;
 } 
 
-.name{
-        display:flex;
+.name{ 
+     display:flex;
      flex-direction: row;
-     justify-content:space-around;
+     justify-content:space-around; 
 }
 .name h1{
     color: rgb(241, 230, 230);
@@ -71,7 +71,7 @@ ul li a:hover{
 #home{  
    width: 100%;
    height: 100vh;
-   background: #e8e9e3;
+   background: #0f1102;
    display: flex;
    align-items: center;
    justify-content: center;
