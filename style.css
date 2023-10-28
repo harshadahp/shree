@@ -450,7 +450,7 @@ footer .subscribe a.green:hover{
    #syllabus .name img{
     height: 500px;
    }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
    .nav{
         padding: 15px 20px;
         color: chartreuse;
